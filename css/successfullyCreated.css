@@ -1,0 +1,57 @@
+*{
+    font-family: Arial;
+    color: white;
+}
+body{
+    background-image: url(../images/Backgrounds/images\ \(54\).jpeg);
+    display: flex;
+    background-size: cover;
+    height: 97vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    font-size: 95%;
+    background-color: rgb(49, 49, 49);
+    width: 350px;
+    padding: 1%;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile{
+    width:70px ;
+    height: 70px;
+    border-radius: 100px;
+}
+img{
+    width: 100%;
+}
+#successfullyCreated{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90%;
+}
+#ourApartment{
+    font-weight: bold;
+    font-size: 120%;
+
+}
+.btn{
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px rgb(187, 187, 187);
+    padding: 5px;
+    text-decoration: none;
+}
+#divButton{
+    margin: 20px 0px 10px 0px;
+}
+#pNote{
+    font-size: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
