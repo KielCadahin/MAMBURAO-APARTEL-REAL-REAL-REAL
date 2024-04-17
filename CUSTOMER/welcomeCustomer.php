@@ -16,7 +16,7 @@
      
             If you don't have an account yet, you can easily create 
             one by clicking the 'Create account' below</p><br><br>
-        <a href="Index.php">Enter</a>
+        <a href="indexCustomer.php">Enter</a>
     </div>
    
 </body>

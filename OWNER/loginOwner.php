@@ -36,7 +36,7 @@ if(isset($_POST["login"])){
    <title>login</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/loginstylin.css">
+   <link rel="stylesheet" href="../css/loginstyle.css">
 
 </head>
 <body>
@@ -49,7 +49,8 @@ if(isset($_POST["login"])){
       <input type="text" name="_username" placeholder="Username" class="box" required>
       <input type="password" name="_password" placeholder="Password" class="box" required>
       <input type="submit" name="login" value="login now" class="btn">
-      <p>don't have an account? <a href="../option.php">Create account</a></p>
+      <p>don't have an account? <a href="../option.php">Create account</a></p><br>
+      <a id="forgot" href="">Forgot Password?</a>
    </form>
    <div id="divOption">
          <a href="loginOwner.php"><button onclick="owner()" style="background-color:rgb(0, 78, 195); color: white" id="owner" class="options">Owner</button></a>

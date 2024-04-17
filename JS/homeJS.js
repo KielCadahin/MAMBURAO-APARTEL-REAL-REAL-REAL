@@ -72,3 +72,11 @@ const toggle = () => classList.toggle("active");
 window.addEventListener("click", function (e) {
   if (!btn.contains(e.target)) classList.remove("active");
 });
+
+// function toggle(){
+//    let dropdown=  document.getElementById("profile-dropdown");
+
+//    if(dropdown.click == true){
+//     document.getElementById("profile-dropdown-list").style.display = "none";
+//    }
+// }
