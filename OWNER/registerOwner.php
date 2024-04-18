@@ -41,14 +41,14 @@ if (isset($_POST["create"])) {
    <title>register</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/loginstylin.css">
+   <link rel="stylesheet" href="../css/loginstyle.css">
 
 </head>
 <body>
    
 <div class="form-container">
 
-   <form action="" method="post" enctype="multipart/form-data">
+   <form action="register.php" method="post" enctype="multipart/form-data">
       <h3>register now</h3>
  
       <input type="text" name="_username" placeholder="Username" class="box" required>
@@ -64,7 +64,10 @@ if (isset($_POST["create"])) {
       <input type="text" name="_phone_number" placeholder="Phone#" class="box" required>
       <input type="text" name="_address" placeholder="Address" class="box" required>
       <input type="text" name="_bank_account" placeholder="Bank account" class="box" required>
-      <!-- <input type="file" name="_profile_picture" class="box" accept="image/jpg, image/jpeg, image/png"> -->
+
+
+
+      <input type="file" name="_profile_picture" class="box" accept="image/jpg, image/jpeg, image/png">
       <input type="submit" name="create" value="register now" class="btn">
       <p>already have an account? <a href="loginOwner.php">login now</a></p>
    </form>

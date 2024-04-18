@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Settings</title>
+    <title>Account Settings Customer</title>
     <link rel="stylesheet" href="../css/settings.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -32,6 +32,10 @@
                             href="#account-connections">Connections</a>
                         <a class="list-group-item list-group-item-action" data-toggle="list"
                             href="#account-notifications">Notifications</a>
+                        <a class="list-group-item list-group-item-action" 
+                        href="../termsOfService.php">Terms of Service</a>
+                        <a class="list-group-item list-group-item-action" 
+                        href="../privacyAndPolicy.php">Privacy and Policy</a>
                     </div>
                 </div>
                 <div class="col-md-9">

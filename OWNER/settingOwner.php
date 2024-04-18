@@ -6,11 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Settings</title>
-    <link rel="stylesheet" href="../css/settings.css">
+    <title>Account Settings Owner</title>
+    <link rel="stylesheet" href="../css/accountsettings.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+ 
 <body>
     <div class="container light-style flex-grow-1 container-p-y">
         <h4 class="font-weight-bold py-3 mb-4">
@@ -32,10 +32,10 @@
                             href="#account-connections">Connections</a>
                         <a class="list-group-item list-group-item-action" data-toggle="list"
                             href="#account-notifications">Notifications</a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list"
-                        href="#">Terms and Conditions</a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list"
-                        href="#">Privacy and Policy</a>
+                        <a class="list-group-item list-group-item-action" 
+                        href="../termsOfService.php">Terms of Service</a>
+                        <a class="list-group-item list-group-item-action" 
+                        href="../privacyAndPolicy.php">Privacy and Policy</a>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -167,7 +167,7 @@
                             <div class="card-body">
                                 <button type="button" class="btn btn-instagram">Connect to
                                     <strong>Instagram</strong></button>
-                            </div>
+                          </div>
                         </div>
                         <div class="tab-pane fade" id="account-notifications">
                             <div class="card-body pb-2">
@@ -226,12 +226,13 @@
                                         <span class="switcher-label">Weekly updates</span>
                                     </label>
                                 </div>
-
-
-                         
-                              
                             </div>
                         </div>
+
+
+
+
+
                     </div>
                 </div>
             </div>

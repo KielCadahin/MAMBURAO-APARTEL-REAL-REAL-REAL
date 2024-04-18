@@ -3,7 +3,7 @@
 :root{
    --blue:#3498db;
    --dark-blue:#2980b9;
-   --red:#e74c3c;
+   --red:#004b76;
    --dark-red:#c0392b;
    --black:#333;
    --white:#fff;
@@ -73,7 +73,7 @@
 
 .form-container{
    min-height: 100vh;
-   background-image: url(../images/Backgrounds/loginBg.jpeg);
+   background-image: url(../images/Backgrounds/bgLoginRegister.jpeg);
    /* background: linear-gradient(230deg,rgb(0, 0, 40), rgb(68, 153, 186), rgb(95, 215, 255)); */
    background-position: center;
    background-repeat: no-repeat;
@@ -266,7 +266,7 @@
    border: none;
    background-color: white;
    color: black;
-   box-shadow: 0 0 10px rgb(177, 176, 176);
+   box-shadow: 0 0 10px rgb(32, 32, 32);
    cursor: pointer;
 
 }

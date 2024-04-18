@@ -39,7 +39,7 @@ if (isset($_POST["create"])) {
    <title>register</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/loginstylin.css">
+   <link rel="stylesheet" href="../css/loginstyle.css">
 
 </head>
 <body>

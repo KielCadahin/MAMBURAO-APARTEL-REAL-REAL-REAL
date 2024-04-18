@@ -1,21 +1,21 @@
 *{
-    color: white;
+    color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(../images/Backgrounds/1705674614062.jpeg);
+    background-image: url(../images/Backgrounds/bgLoginRegister.jpeg);
     display: flex;
     background-size: cover;
     height: 97vh;
     background-repeat: no-repeat;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
 }
 #btnNext{ 
     border-radius: 5px;
     border: none;
     color: white;
-    background-color: rgb(1, 1, 56);
+    background-color: #3498db;
     padding: 3% 45%; 
     cursor: pointer;
     text-decoration: none;
@@ -23,15 +23,16 @@ body{
     transition: all .5s ease;
 }
 #btnNext:hover{
-    background-color: rgb(2, 2, 119);
+    background-color: #2980b9;
 }
 form{
- 
-    background-color: rgb(7, 183, 189);
-    width: 250px;
+    background-color: #fff;
+    width: 300px;
     padding: 0% 2% 2% 2%;
     text-align: center;
-    box-shadow: 15px -15px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
 form div #alert{
     font-size: 10pt;

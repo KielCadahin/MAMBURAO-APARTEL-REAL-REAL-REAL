@@ -6,11 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Home</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+       
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link
@@ -18,8 +14,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/indexing.css" rel="stylesheet" />
-        <link rel="stylesheet" href="../css/indexdropdown.css">
+        <link href="../css/index.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/indexDropdownMenu.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -33,6 +29,7 @@
                 <div class="profile-dropdown" >
                     <div onclick="toggle()" class="profile-dropdown-btn">
                       <div class="profile-img">
+                        <img src="../images/homeimg/team/teamKiel.jpg" alt="">
                       </div>
             
                       <span
@@ -75,6 +72,7 @@
                         <a href="#">
                           <i class="fa-solid fa-arrow-right-from-bracket"></i>
                           Log out
+                          
                         </a>
                       </li>
                     </ul>
@@ -361,7 +359,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="../JS/homeJS.js"></script>
+        <script src="../JS/home.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

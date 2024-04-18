@@ -18,8 +18,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* 
-body {
+
+/* body {
   height: 100vh;
   width: 100%;
   background-color: var(--primary);
@@ -90,8 +90,13 @@ body {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: url(../images/homeimg/team/jaredTeam.jpg);
+  background: url();
   background-size: cover;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .profile-img i {
@@ -160,16 +165,3 @@ body {
   padding-left: 1.5rem;
   background-color: var(--secondary-light);
 }
-
-
-
-
-
-
-
-
-
-
-
-/* Modification */
-

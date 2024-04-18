@@ -19,7 +19,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
+/* body {
   height: 100vh;
   width: 100%;
   background-color: var(--primary);
@@ -54,7 +54,7 @@ body {
   font-weight: 500;
   color: var(--black);
   text-decoration: none;
-}
+} */
 
 .profile-dropdown {
   position: relative;
